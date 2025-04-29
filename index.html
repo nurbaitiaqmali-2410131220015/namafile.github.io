@@ -3,46 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bookshop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Halo, ini project praktikum!</h1>
+
     <header>
-        <h1>Mahfuza Dinia Rahmah</h1>
-        <p>Mahasiswi Pendidikan Komputer</p>
+        <div class="container">
+            <h1>DREAM BOOKSTORE</h1>
+            <p>Temukan Buku Impian Di Sini!</p>
+        </div>
     </header>
 
     <nav>
-        <a href="#tentang">Tentang</a>
-        <a href="#proyek">Proyek</a>
-        <a href="#kontak">Kontak</a>
+        <div class="container">
+            <a href="#tentang">Tentang Kami</a>
+            <a href="#kategori">Kategori Buku</a>
+            <a href="#produk">Produk Terbaru</a>
+            <a href="kontak">Hubungi Kami</a>
+        </div>
     </nav>
 
-    <section id="tentang">
-        <h2>Tentang Saya</h2>
-        <p>Saya adalah mahasiswi yang sedang beljar 
-            membuat website.
-            saya menyukai dunia teknologi dan ingin menjadi 
-            web developer.</p>
-    </section>
+    <main>
+        <section id="tentang" class="container">
+            <h2>Tentang BookStore</h2>
+            <p>Selamat Datang di Toko buku Impian, Surganya bagi para pecinta buku! 
+                kami menyediakan berbagai macam buku dari berbagai genre, mulai dari fiksi, 
+                non-fiksi, hingga anak-anak. Misi kami adalah untuk menyebarkan kecintaan 
+                membaca buku dan memudahkan Anda menemukan buku yang menginspirasi dan menghibur.</p>
+        </section>
 
-    <section id="proyek">
-        <h2>Proyek Saya</h2>
-        <ul>
-            <li>Website Daftar Buku</li>
-            <li>Aplikasi Pemesanan Online</li>
-            <li>To-Do List Sederhana</li>
-        </ul>
-    </section>
 
-    <section id="kontak">
-        <h2>Kotak</h2>
-        <p>Email:rahmahmahfuzadinia@gmail.com</p>
-        <p>Instagram: @mahfuza_2 </p>
-    </section>
+        <section id="kategori" class="container">
+            <h2>Kategori Buku</h2>
+            <ul>
+                <li>Fiksi</li>
+                <li>Non-Fiksi</li>
+                <li>Sains & Teknologi</li>
+                <li>Sejarah</li>
+                <li>Pengembangan Diri</li>
+                <li>Buku Anak-anak</li>
+            </ul>
+        </section>
+
+        <section id="produk" class="container">
+            <h2>Produk Terbaru</h2>
+            <div class="grid-produk">
+                <div class="produk-item">
+                    <img src="WhatsApp Image 2025-04-28 at 17.20.21.jpeg" alt="Cinta Bersemi di Bumi Seoul">
+                    <h3>CINTA BERSEMI DI BUMI SEOUL</h3>
+                    <p>Penulis: Miss Leonie</p>
+                    <p>Harga: Rp. 92.000</p>
+                    <a href="#" class="btn btn-beli">Beli Sekarang</a>
+                </div>
+
+                <div class="produk-item">
+                    <img src="WhatsApp Image 2025-04-28 at 17.20.22.jpeg" alt="Stem">
+                    <h3>TECNOLOGY & ENGINEERING</h3>
+                    <p>Penulis: Sienta Sasika</p>
+                    <p>Harga: 95.000</p>
+                    <a href="#" class="btn btn-beli">Beli Sekarang</a>
+                </div>
+
+                <div class="produk-item">
+                    <img src="WhatsApp Image 2025-04-28 at 17.20.22 (1).jpeg" alt="The Gril And A Frog">
+                    <h3>TEH GRIL AND A FROG</h3>
+                    <p>Penulis: Salma Khan</p>
+                    <p>Harga: 86.000 </p>
+                    <a href="#" class="btn btn-beli">Beli Sekarang</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="kotak" class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau memerlukan bantuan!</p>
+            <p>Email: <a href="bookshop@gmail.com">bookshop@gmail.com</a></p>
+            <p>No.Telp: 081234567891</p>
+            <p>Alamat: Jl. Impian No.234, Banjarmasin</p>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Mahfuza Dinia Rahmah</p>
+        <div class="container">
+            <p>&copy; 2025 Toko Buku Impian. All rights reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
