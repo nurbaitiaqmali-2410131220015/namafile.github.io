@@ -15,6 +15,7 @@ header{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 .container{
     width: 80%;
     margin: auto;
@@ -22,6 +23,8 @@ header{
     padding: 20px 0;
 }
 
+=======
+>>>>>>> f015dd1cfc531df5e6fbc16accbc18b3eeb92bd8
 .btn{
     display: inline-block;
     background-color: #6a11cb;
@@ -39,9 +42,12 @@ header{
     transform: scale(1.05);
 }
 
+<<<<<<< HEAD
 main{
     padding: 20px 0;
 }
+=======
+>>>>>>> f015dd1cfc531df5e6fbc16accbc18b3eeb92bd8
 nav{
     background-color: #3b74c5;
     text-align: center;
